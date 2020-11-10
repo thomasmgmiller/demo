@@ -1,0 +1,20 @@
+.control {
+  font-size: 1em;
+  padding: .5em 1em;
+  background-color: #fff;
+  border: 1px solid #363636;
+  margin-right: .5em;
+}
+
+.control:last-child {
+  margin-right: 0;
+}
+
+.control:hover {
+  opacity: 0.8;
+}
+
+.control--active {
+  color: #fff;
+  background-color: #6699cc;
+}
